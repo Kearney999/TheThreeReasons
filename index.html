@@ -863,7 +863,7 @@
         padding: 3rem 0 4rem 0 !important; 
         min-height: auto !important;
         height: auto !important;
-        background-size: cover !important; 
+        background-size: 100% cover !important; 
         background-position: center center !important;
         background-repeat: no-repeat !important;
         overflow: hidden !important; 
@@ -2120,16 +2120,16 @@
                 const schemaData = {
                     "@context": "https://schema.org",
                     "@type": "CafeOrCoffeeShop",
-                    "name": siteConfig.businessName || "Copperwheats",
-                    "description": siteConfig.homePage?.heroDesc || "Specialty coffee house right by the ferry terminal.",
+                    "name": siteConfig.businessName || "TheThreeReasons",
+                    "description": siteConfig.homePage?.heroDesc || "Traditional Pub/Diner serving great food and drink.",
                     "url": window.location.href,
                     "telephone": cp.contactTelephone || "",
                     "address": {
                         "@type": "PostalAddress",
-                        "streetAddress": cp.address ? cp.address.replace("📍", "").trim() : "The Pier",
-                        "addressLocality": cp.locality || "Brodick",
-                        "addressRegion": cp.region || "Isle of Arran",
-                        "postalCode": cp.postalCode || "KA27",
+                        "streetAddress": cp.address ? cp.address.replace("📍", "").trim() : "By the Pier",
+                        "addressLocality": cp.locality || "Largs",
+                        "addressRegion": cp.region || "North Ayrshire",
+                        "postalCode": cp.postalCode || "KA30",
                         "addressCountry": cp.countryCode || "GB"
                     }
                 };
