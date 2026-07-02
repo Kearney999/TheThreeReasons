@@ -63,7 +63,7 @@ export const siteConfig =
         }
         ,
         {
-            imgUrl: "./images/QuizNight_ThreeReasons.png",
+            imgUrl: "./images/Quiz_10Percent.png",
             title: "Quiz Night every Monday night",
             desc: "The free Quiz starts at 9pm. You get a lovely free buffet at half time, and the winning prize of £20 voucher"
         }
@@ -123,10 +123,10 @@ export const siteConfig =
         menuList: [
             { emoji: "🥩", name: "Traditional Roasts" },
             { emoji: "🍔", name: "Gourmet Burgers & Steaks" },
-            { emoji: "🥧", name: "Homemade Pub Steak Pies" },
+            { emoji: "🥧", name: "Homemade Scottish Steak Pies" },
             { emoji: "🍺", name: "Draught Ales & Real Lagers" },
             { emoji: "🍷", name: "Fine Wines & Malt Whiskies" },
-            { emoji: "🧒", name: "Kids' Main Platters" }
+            { emoji: "🧒", name: "Kids' Portions" }
         ]
     },
     contactPage: {
