@@ -63,9 +63,9 @@ export const siteConfig =
         }
         ,
         {
-            imgUrl: "./images/QuizNight_ThreeReasons_Resize.png",
+            imgUrl: "./images/QuizNight_TheThreeReasons.png",
             title: "Quiz Night every Monday night",
-            desc: "The free Quiz starts at 9pm. You get a lovely free buffet at half time, and the winning prize of £20 voucher"
+            desc: ""
         }
     ],
     homePage: {
