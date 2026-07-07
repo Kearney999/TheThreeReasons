@@ -3,7 +3,7 @@ export const siteConfig =
 {
     customLogoUrl: "logo.png", 
     businessName: "The Three Reasons",
-    businessSub: "Good drinks, Good meals, Good times",
+    businessSub: "Good Drink, Good Meal, Good Times!",
     metaTitle: "The Three Reasons Pub | Largs, Ayrshire",
     contactEmail: "info@thethreereasonslargs.co.uk",
     contactEmailEncrypted: "5e3574e3d7e74f8f7516e29ca84dc19d",
@@ -23,11 +23,12 @@ export const siteConfig =
     // FEATURE SWITCHES (Turn sections ON [true] or OFF [false])
     // =========================================================
     features: {
-        showGoogleReviews: true,
-        showTripAdvisor: true,
-        showOpeningHours: true,
-        showGoogleReviewsSummaryBoard: true,
-        showCompanyStoryboard: true
+        showGoogleReviews: true, //Show Goole Reviews buttons
+        showTripAdvisor: true, //Shw TripAdvisor buttons
+        showOpeningHours: true, //Show Opening Hours
+        showGoogleReviewsSummaryBoard: true, //Show or Hide the SumamryBoard
+        showCompanyStoryboard: true, //Show or Hide the Storyboard
+        showMenu: true // Set to false to instantly hide the menu across the site
     },
 
     heroSlides: [
@@ -111,7 +112,7 @@ export const siteConfig =
         sub: "We serve an extensive menu of hearty traditional pub food, premium chef specials, artisan desserts, children's portions, and a fully stocked gantry of draft beers, wines, and spirits.",
         openingHours: {
             title: "Operating Hours",
-            subtitle: "Open daily for exceptional lunches, dinners, and drinks on the front",
+            subtitle: "Open daily for exceptional lunches, dinners finish at 7pm, and selection of traditional pub drinks",
             monday: "11:00 AM – 12:00 PM",
             tuesday: "11:00 AM – 12:00 PM",
             wednesday: "11:00 AM – 12:00 PM",
@@ -124,7 +125,7 @@ export const siteConfig =
             { emoji: "🥩", name: "Traditional Roasts" },
             { emoji: "🍔", name: "Gourmet Burgers & Steaks" },
             { emoji: "🥧", name: "Homemade Scottish Steak Pies" },
-            { emoji: "🍺", name: "Draught Ales & Real Lagers" },
+            { emoji: "🍺", name: "Real Ales & Lagers" },
             { emoji: "🍷", name: "Fine Wines & Malt Whiskies" },
             { emoji: "🧒", name: "Kids' Portions" }
         ]

@@ -317,6 +317,19 @@
                     </div>`;
             });
 
+            // --- TOGGLE MENU VISIBILITY ---
+            // Run this directly right after the HTML elements are drawn so it targets it accurately
+            const menuSection = document.querySelector('.menu-download-container');
+
+            if (menuSection) {
+                // Making sure it matches your specific layout config nested path: config.features.showMenu
+                if (config.features && config.features.showMenu) {
+                    menuSection.style.display = 'block'; // Shows the menu block
+                } else {
+                    menuSection.style.display = 'none';  // Hides and collapses the space completely
+                }
+            };
+
 
             // HYDRATE OPENING TIMES FROM CONFIG FILE
 
