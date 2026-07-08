@@ -8,6 +8,10 @@
         window.siteConfig = config;  // This line pushes it onto the global window dashboard!
         const siteConfig = config;
 
+        // At the very top of script.js
+        const basePath = window.location.hostname.includes('github.io') 
+        ? `/${config.repositoryName}` 
+        : '';
 
         // =========================================================================
         // LOCAL SEO SCHEMA COMPILER (Defined first so the hydrator can call it)
@@ -745,15 +749,14 @@
                 const targetPage = targetAttr.getAttribute('data-target');
                 const href = targetAttr.getAttribute('href');
 
-                try 
-                {
-                    if (window.location.protocol !== 'file:') 
-                    {
-                        window.history.pushState({ page: targetPage }, '', href);
+                try {
+                    if (window.location.protocol !== 'file:') {
+                // Prefix the href path with your dynamic basePath variable!
+                window.history.pushState({ page: targetPage }, '', `${basePath}${href}`);
                     }
-                } catch (error) {
-                    console.warn("Routing engine history stack pushState fallback triggered safely.", error);
-                }
+                    } catch (error) {
+                        console.warn("Routing engine history stack pushState fallback triggered safely.", error);
+                    }
 
                 navigateToPage(targetPage);
             }

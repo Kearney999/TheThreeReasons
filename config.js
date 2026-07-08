@@ -1,6 +1,8 @@
 // config.js - The Three Reasons Restaurant & Pub Configuration
 export const siteConfig = 
 {
+    repositoryName: 'TheThreeReasons', //This is where the files sit.
+
     customLogoUrl: "logo.png", 
     businessName: "The Three Reasons",
     businessSub: "Good Drink, Good Meal, Good Times!",
