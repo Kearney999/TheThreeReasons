@@ -1,12 +1,21 @@
 // config.js - The Three Reasons Restaurant & Pub Configuration
 export const siteConfig = 
 {
+    theme: "fun.css",  //choices are found in the styles folder
+
+    navLabels: {
+        "index.html": "Home",
+        "about.html": "Our Story",
+        "services.html": "Menu",
+        "contact.html": "Find us"
+    },
+
     repositoryName: 'TheThreeReasons', //This is where the files sit.
 
     customLogoUrl: "logo.png", 
     businessName: "The Three Reasons",
     businessSub: "Good Drink, Good Meal, Good Times!",
-    metaTitle: "The Three Reasons Pub | Largs, Ayrshire",
+    metaTitle: "The Three Reasons Pub | Largs, Ayrshire, Scotland",
     contactEmail: "info@thethreereasonslargs.co.uk",
     contactEmailEncrypted: "5e3574e3d7e74f8f7516e29ca84dc19d",
     locationShort: "Opposite the pier",
@@ -19,6 +28,19 @@ export const siteConfig =
         midNeutral: "#070706",     // Softened Sage-Olive that pairs beautifully with white/cream
         lightNeutral: "#faeaae",   // The signature Cream for warm container blocks and cards
         background: "#fdfcf9"      // A soft, premium off-white canvas that makes the brand colors pop
+    },
+
+    logoSettings: {
+        showFrame: true,          /* Set to false to hide the background spotlight outline */
+        frameWidth: "120px",      /* The width of the translucent wrapper */
+        frameHeight: "120px",     /* The height of the translucent wrapper */
+        frameRadius: "50%",       /* 50% for circle/ellipse, or use pixels like "12px" for squares */
+        
+        imageWidth: "125px",      /* The width of the actual image logo inside */
+        imageHeight: "125px",      /* The height of the actual image logo inside */
+        // 🌟 PRECISION NUDGING: Centering coordinates controlled by config
+        imageTop: "57%",
+        imageLeft: "49%"
     },
 
     // =========================================================
