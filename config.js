@@ -58,8 +58,8 @@ export const siteConfig =
     heroSlides: [
         {
             imgUrl: "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=1600&fit=crop&q=80",
-            title: "Exceptional Meals Cooked Fresh Daily",
-            desc: "From hearty pub favourites to modern kitchen creations, we pride ourselves on serving up premium quality comfort food on the Largs coast."
+            title: "Top Restaurant on Trip Advisor",
+            desc: "#1 of 35 restaurants in Largs, and #3 of 730 restaurants in Ayrshire"
         },
         {
             imgUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&fit=crop&q=80",
