@@ -56,8 +56,10 @@ export const siteConfig =
     },
 
     heroSlides: [
-        {
-            imgUrl: "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=1600&fit=crop&q=80",
+
+        // Magic Relative Path: Looks in the images folder right next door!
+            
+        {   imgUrl: "./images/TripAdvisor.jpg", 
             title: "Top Restaurant on Trip Advisor",
             desc: "#1 of 35 restaurants in Largs, and #3 of 730 restaurants in Ayrshire"
         },
